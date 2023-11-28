@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css\style1.css">
+    <title>MQ2 Gas and Rain detector</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#components">Components</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#circuit">Circuit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#working-1">Working</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#code">Code</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="header-sec">
+        <h1 class="header-title">SMART STREET LIGHTING SYSTEM</h1><br>
+        <h5 class="header-discription">An IoT-based street lightning system which uses nodemcu and blynk notification
+        </h5><br><br>
+      
+
+      <section class="feature-sec">
+        <h3>Introduction</h3>
+        <p>Is an IOT project as we know to be learn IOT is internet of things which is designer to gave 
+          time and for making work easy and accurate. As for as time and security is concerned with the 
+          help of IOT he will build a cradle system which will make stress free and most important it will 
+          be safe and Secure for the baby. So managing the work in time and taking care of maybe is very 
+          important factor. Cradle system will give parents required time to Parent for rest as is the parents 
+          both mother and father goes for the job or even if the mother is house wife. Being stress free will 
+          definitely create the great atmosphere which will make great atmosphere around the baby. So it 
+          doesn't matter if there is no one to swing cradle it will do swing automatically if the baby is 
+          crying. It doesn't matter if baby based on p and no on nose about for long time but not need to 
+          worry cradle system will also give the Alert about the witness in cradle. This cradle system will 
+          help the parents so they can take good care of their baby. The modules in cradle system for 
+          which anyone will be operated after any kinds of situation that are given as follows:
+          If the baby is making noise or baby is crying then some sense or will be here that frequency and 
+          it will start swing also alert message will send to Parent through the blink app if the baby bad 
+          wetted the mattresses of the cradle then alert message will send to Parent through the blink app.</p>
+      </section>
+      </section>
+    
+
+      <section id="components" class="colored-section centered-section">
+         <h2 class="component-header">Components Used</h2>
+        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="false" >
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <div class="row">
+                <div class="in-one-carousel col-md-4">
+                <img class="opinion-img" src="/iot_mohan/wet.png" alt="" width="100" height="100">
+                <h5>ESP8266</h5>
+               </div>
+               <div class="in-one-carousel col-md-4">
+                <img class="opinion-img" src="/iot_mohan/wet.png" alt="" width="100" height="100">
+                <h5>Wet Sensor</h5>
+               </div>
+               <div class="in-one-carousel col-md-4">
+                <img class="opinion-img" src="/iot_mohan/sound.png" alt="" width="100" height="100">
+                <h5>Sound Sensor</h5>
+               </div>
+               </div>
+              </div>
+              <div class="carousel-item " >
+                <div class="carousel-item active ">
+                    <div class="row">
+                    
+                  
+                   <div class="in-one-carousel col-md-6">
+                    <img class="opinion-img" src="/iot_mohan/servo.png" alt="" width="100" height="100">
+                    <h5>Servo meter</h5>
+                   </div>
+                   </div>
+                  </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" ></span>
+              
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" ></span>
+              
+            </button>
+          </div>
+    </section>
+  <section class="bg">
+<div class="explaination-box">
+    <section class="circuit-diagram" id="circuit">
+        <br><br>
+        <h3 style="margin-bottom: 2.5%;">Implementation</h3><br>
+        <div >
+                <img class="circuit"src="/iot_mohan/block.png" alt="" width="50%"  style="margin-left: 400px;">
+        </div>
+        
+        <br><br>
+       <p class="Explaination" style="text-align: justify;">
+        <p style="text-align: justify;">Parents might not have the time to soothe their baby to sleep or rock their baby back to sleep in 
+          the middle of the night. Studies about the effect of rocking a baby have been carried out and 
+          found that babies sleep better while being rocked or swung lightly because the rhythmic 
+          movement mimics the gentle rocking they felt while in their mothers’ womb. Most available 
+          automated cradles aredesign ed to rock non-stop. However, the rocking movement can make the 
+          baby nauseous and uncomfortable. Thus, allowing the automated cradle to rock the baby to sleep 
+          in the middle of the night is also a problem. Furthermore, some parents place their baby in a 
+          separate room. Therefore, parents could not hear the baby crying and could not be there to ease 
+          their baby back to sleep in the middle of the night. Other parents may be occupied with house 
+          chores. Thus, because they cannot hear their baby crying, they cannot attend to them 
+          immediately. Sometimes, the baby only needs a little distraction to return to deep sleep. Several 
+          types of baby cradles are available in stores, but they are expensive, and not everyone can afford 
+          them. In addition, the existing automatic cradles in the literature have many limitations in terms 
+          of functionality, cost, and communication technology support </p><br><br>
+
+        
+          <h3>FLowchart</h3>
+          <br><p style="text-align: justify;">The flowchart of the general work flow of the baby monitoring system. The NodeMCU had to 
+            be connected to the pre-set Wi-Fi network when power of the microcontroller is turned on. The 
+            buzzer rings for 1 second to indicate that the microcontroller is connected to the Wi-Fi network. 
+            The user must access the Internet via their mobile phone/laptop to monitor and control the smart 
+            cradle. Then, the user has to run applications for MQTT Dash or wireless camera. The system 
+            starts working by checking the detection of sound through the sound sensor. The measured 
+            reading might fluctuate due to wind or noise. Hence, a range of threshold values was set for the 
+            fluctuation detection. When the baby’s cry is detected, the measured value exceeds the threshold 
+            value, and the cradle is swung by turning on the Relay 1 connected to the DC geared motor either 
+            automatically or manually.</p><br>
+            
+            <div class="row"style="margin-left:30px" >
+              <div class="col-md-6" height="375" >
+                  <img class="circuit"src="/iot_mohan/flow-1.png" alt="" width="90%" height="45%" >
+              </div>
+              <div class="col-md-6" height="375">
+                  <img src="/iot_mohan/flow-2.png" alt="" class="connection" width="90%" height="45%">
+              </div>
+          </div>
+          
+          <h2>Result Snapshot</h2><br>
+          <img src="/iot_mohan/snapshot.png" alt="">
+            
+
+        
+        
+
+    </section>
+<br><br>
+
+  <footer id="footer"  class=" white-section similar-section centered-section">
+
+    <p class="neglected-para">© smart cradle system @2023</p>
+
+  </footer>
+</body>
+</html>

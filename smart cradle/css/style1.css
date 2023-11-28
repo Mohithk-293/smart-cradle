@@ -1,0 +1,130 @@
+body{
+    font-family: 'Alata', sans-serif;
+}
+p{
+    font-size: 1.2rem;;
+}
+.navbar{
+    padding:1rem 2rem;
+    background-color:#570c6a;
+    text-align: center;
+    
+    
+}
+.nav-item{
+    margin: 0 20px;
+}
+.nav-link{
+    color:#fff;
+}
+.header-sec{
+    padding:4rem 20rem;
+    text-align: center;
+    background-image: url("/iot-bg.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:#fff;
+    
+}
+
+.header-discription{
+    line-height: 2 ;
+}
+.header-title{
+    line-height: 1.5 ;
+}
+.feature-sec{
+    padding:3% 2%;
+    text-align:justify;
+    background-color: #570c6a;
+    color: #fff;
+    
+    
+}
+.feature-item
+{
+   padding: 5% 7%;
+   
+}
+.feature-icon
+{
+    font-size:30px;
+    line-height:1.5;
+    color: #57595c;
+}
+.neglected-para
+{
+    color:#82878d;
+    font-family:'Alata', sans-serif ;
+    font-size: large;
+    
+}
+
+#components
+{
+    color:rgb(0, 0, 0);
+    padding:2% 0;
+    text-align: center;
+    background-color: #570c6a;
+    color:#fff;
+    
+}
+.carousel-item
+{
+    padding:2% 15%;
+}
+.opinion-img
+{
+    border-radius: 100%;
+    margin: 2% 1%;
+}
+.opinion-text
+{
+    line-height: 2;
+    font-size: 2rem;
+    font-family: 'Alata', sans-serif;
+    font-weight: 800;
+}
+.circuit-diagram{
+    padding:0% 1%;
+    
+}
+.circuit,.connection{
+margin-left: 0;
+border-radius: 10px;
+padding: 0;
+}
+.blynk-setup{
+    padding:2% 1%;
+}
+
+.Explaination{
+    line-height:1.5;
+    font-size:17px;
+}
+.final-pic{
+    margin-left: 450px;
+}
+
+footer{
+    background-color: #570c6a;
+    color:#fff;
+    text-align: center;
+    padding: 2.5%;
+    
+}body{
+    background-color: #570c6a;
+    color:#fff;
+
+}
+
+
+@media screen and (max-width:777px)
+{
+    .circuit,.connection{
+        
+        margin-left:0;
+        
+    }
+    
+}
